@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name debugger2-special)(type KiCad)(uri "$(KIPRJMOD)/debugger2-special.pretty")(options "")(descr ""))
+)

@@ -1,0 +1,195 @@
+/mnt/hgfs/14642/repos/code/kernel/include/Thread.h:18: warning: Compound TCB is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/mutex_type.h:14: warning: Compound mutex is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/ads1015.c:16: warning: Member CHANNEL (variable) of file ads1015.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/ads1015.h:13: warning: Member ADC_ADDRESS (macro definition) of file ads1015.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/ads1015.h:14: warning: Member ADC_CONVERSION_REG (macro definition) of file ads1015.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/ads1015.h:15: warning: Member ADC_CONFIG_REG (macro definition) of file ads1015.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/ads1015.h:16: warning: Member ADC_LO_THRES_REG (macro definition) of file ads1015.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/ads1015.h:17: warning: Member ADC_HI_THRES_REG (macro definition) of file ads1015.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/ads1015.h:18: warning: Member INIT_CONFIG_LSB_0 (macro definition) of file ads1015.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/ads1015.h:20: warning: Member CHANNEL_0_DIFF (macro definition) of file ads1015.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/ads1015.h:21: warning: Member CHANNEL_1_DIFF (macro definition) of file ads1015.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/ads1015.h:22: warning: Member CHANNEL_2_DIFF (macro definition) of file ads1015.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/ads1015.h:23: warning: Member CHANNEL_3_DIFF (macro definition) of file ads1015.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/ads1015.h:24: warning: Member CHANNEL_0_GND (macro definition) of file ads1015.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/ads1015.h:25: warning: Member CHANNEL_1_GND (macro definition) of file ads1015.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/ads1015.h:26: warning: Member CHANNEL_2_GND (macro definition) of file ads1015.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/ads1015.h:27: warning: Member CHANNEL_3_GND (macro definition) of file ads1015.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/ads1015.h:29: warning: Member PGA_FS_6144 (macro definition) of file ads1015.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/ads1015.h:30: warning: Member PGA_FS_4096 (macro definition) of file ads1015.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/ads1015.h:31: warning: Member PGA_FS_2048 (macro definition) of file ads1015.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/ads1015.h:32: warning: Member PGA_FS_1024 (macro definition) of file ads1015.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/ads1015.h:33: warning: Member PGA_FS_0512 (macro definition) of file ads1015.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/ads1015.h:34: warning: Member PGA_FS_0256 (macro definition) of file ads1015.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/ads1015.h:37: warning: Member MODE_CONTINUOUS (macro definition) of file ads1015.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/ads1015.h:38: warning: Member MODE_SINGLE_SHOT (macro definition) of file ads1015.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/ads1015.h:40: warning: Member OS_NO_EFFECT (macro definition) of file ads1015.h is not documented.
+/mnt/hgfs/14642/repos/code/349libk/src/gpio.c:14: warning: Member MMIO_BASE_PHYSICAL (macro definition) of file gpio.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/i2c.h:15: warning: Member I2C1_SDA (macro definition) of file i2c.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/i2c.h:16: warning: Member I2C1_SCL (macro definition) of file i2c.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/i2c.h:19: warning: Member I2C_CLK_100KHZ (macro definition) of file i2c.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/i2c.h:20: warning: Member I2C_CLK_RATE (macro definition) of file i2c.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/i2c.h:21: warning: Member I2C_BAUD_RATE_100KHZ (macro definition) of file i2c.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/i2c.h:23: warning: Member I2C_0_BASE (macro definition) of file i2c.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/i2c.h:24: warning: Member I2C_1_BASE (macro definition) of file i2c.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/i2c.h:25: warning: Member I2C_2_BASE (macro definition) of file i2c.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/i2c.h:27: warning: Member C (macro definition) of file i2c.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/i2c.h:28: warning: Member S (macro definition) of file i2c.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/i2c.h:29: warning: Member DLEN (macro definition) of file i2c.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/i2c.h:30: warning: Member I2C_ADDR (macro definition) of file i2c.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/i2c.h:31: warning: Member FIFO (macro definition) of file i2c.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/i2c.h:32: warning: Member DIV (macro definition) of file i2c.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/i2c.h:35: warning: Member TA (macro definition) of file i2c.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/i2c.h:36: warning: Member DONE (macro definition) of file i2c.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/i2c.h:37: warning: Member TXW (macro definition) of file i2c.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/i2c.h:38: warning: Member RXR (macro definition) of file i2c.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/i2c.h:39: warning: Member TXD (macro definition) of file i2c.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/i2c.h:40: warning: Member RXD (macro definition) of file i2c.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/i2c.h:41: warning: Member TXE (macro definition) of file i2c.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/i2c.h:42: warning: Member RXF (macro definition) of file i2c.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/i2c.h:43: warning: Member ERR_ACK (macro definition) of file i2c.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/i2c.h:45: warning: Member READ (macro definition) of file i2c.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/i2c.h:46: warning: Member CLEAR (macro definition) of file i2c.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/i2c.h:47: warning: Member START (macro definition) of file i2c.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/i2c.h:48: warning: Member I2C_EN (macro definition) of file i2c.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/kernel.c:28: warning: Member enter_user_mode() (function) of file kernel.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/kernel.c:29: warning: Member save_context(int *context) (function) of file kernel.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/kernel.c:30: warning: Member threads_init() (function) of file kernel.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/kernel.c:40: warning: Member kernel_main(void) (function) of file kernel.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/kernel.c:31: warning: Member sample_fn)(uint16_t) (variable) of file kernel.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/kernel.c:38: warning: Member CLOCK_TICKS (variable) of file kernel.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/kernel.c:67: warning: The following parameters of swi_c_handler(int swi_num, int *args, int arg4plus) are not documented:
+  parameter 'arg4plus'
+/mnt/hgfs/14642/repos/code/kernel/include/mutex_type.h:17: warning: Member mutex_t (typedef) of file mutex_type.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/spi.c:17: warning: Member SPI0_CS_REG (macro definition) of file spi.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/spi.c:18: warning: Member SPI0_FIFO_REG (macro definition) of file spi.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/spi.c:19: warning: Member SPI0_CLK_REG (macro definition) of file spi.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/spi.c:20: warning: Member SPI0_DLEN_REG (macro definition) of file spi.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/spi.c:21: warning: Member SPI0_LTOH_REG (macro definition) of file spi.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/spi.c:22: warning: Member SPI0_DC_REG (macro definition) of file spi.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/spi.c:25: warning: Member SPI_LEN_LONG (macro definition) of file spi.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/spi.c:26: warning: Member SPI_DMA_LEN (macro definition) of file spi.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/spi.c:27: warning: Member SPI_CSPOL2 (macro definition) of file spi.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/spi.c:28: warning: Member SPI_CSPOL1 (macro definition) of file spi.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/spi.c:29: warning: Member SPI_CSPOL0 (macro definition) of file spi.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/spi.c:30: warning: Member SPI_RX (macro definition) of file spi.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/spi.c:31: warning: Member SPI_RXR (macro definition) of file spi.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/spi.c:32: warning: Member SPI_TXD (macro definition) of file spi.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/spi.c:33: warning: Member SPI_RXD (macro definition) of file spi.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/spi.c:34: warning: Member SPI_DONE (macro definition) of file spi.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/spi.c:35: warning: Member SPI_LEN (macro definition) of file spi.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/spi.c:36: warning: Member SPI_REN (macro definition) of file spi.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/spi.c:37: warning: Member SPI_ADCS (macro definition) of file spi.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/spi.c:38: warning: Member SPI_INTR (macro definition) of file spi.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/spi.c:39: warning: Member SPI_INTD (macro definition) of file spi.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/spi.c:40: warning: Member SPI_DMAEN (macro definition) of file spi.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/spi.c:41: warning: Member SPI_TA (macro definition) of file spi.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/spi.c:42: warning: Member SPI_CSPOL (macro definition) of file spi.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/spi.c:43: warning: Member SPI_CLEAR_RX (macro definition) of file spi.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/spi.c:44: warning: Member SPI_CLEAR_TX (macro definition) of file spi.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/spi.c:45: warning: Member SPI_CPOL (macro definition) of file spi.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/spi.c:46: warning: Member SPI_CPHA (macro definition) of file spi.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/spi.c:47: warning: Member SPI_CS1 (macro definition) of file spi.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/spi.c:48: warning: Member SPI_CS0 (macro definition) of file spi.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/spi.c:54: warning: Member wait(unsigned int delay) (function) of file spi.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/syscalls.c:24: warning: Member hang() (function) of file syscalls.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:18: warning: Member SVC_STACK_SIZE (macro definition) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:19: warning: Member REFRESH_PERIOD (macro definition) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:20: warning: Member BUFFER_SIZE (macro definition) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:60: warning: Member start_thread(thread_fn fn, uint32_t *s) (function) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:68: warning: Member threads_init() (function) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:107: warning: Member get_idle_thread() (function) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:350: warning: Member save_context(int *context) (function) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:23: warning: Member idle_svc_stack[SVC_STACK_SIZE] (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:24: warning: Member thread0_svc_stack[SVC_STACK_SIZE] (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:25: warning: Member thread1_svc_stack[SVC_STACK_SIZE] (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:26: warning: Member thread2_svc_stack[SVC_STACK_SIZE] (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:27: warning: Member thread3_svc_stack[SVC_STACK_SIZE] (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:28: warning: Member thread4_svc_stack[SVC_STACK_SIZE] (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:29: warning: Member thread5_svc_stack[SVC_STACK_SIZE] (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:30: warning: Member thread6_svc_stack[SVC_STACK_SIZE] (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:31: warning: Member thread7_svc_stack[SVC_STACK_SIZE] (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:32: warning: Member thread8_svc_stack[SVC_STACK_SIZE] (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:33: warning: Member thread9_svc_stack[SVC_STACK_SIZE] (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:34: warning: Member thread10_svc_stack[SVC_STACK_SIZE] (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:35: warning: Member thread11_svc_stack[SVC_STACK_SIZE] (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:36: warning: Member thread12_svc_stack[SVC_STACK_SIZE] (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:37: warning: Member thread13_svc_stack[SVC_STACK_SIZE] (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:38: warning: Member thread14_svc_stack[SVC_STACK_SIZE] (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:39: warning: Member thread15_svc_stack[SVC_STACK_SIZE] (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:40: warning: Member thread16_svc_stack[SVC_STACK_SIZE] (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:41: warning: Member thread17_svc_stack[SVC_STACK_SIZE] (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:42: warning: Member thread18_svc_stack[SVC_STACK_SIZE] (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:43: warning: Member thread19_svc_stack[SVC_STACK_SIZE] (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:44: warning: Member thread20_svc_stack[SVC_STACK_SIZE] (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:45: warning: Member thread21_svc_stack[SVC_STACK_SIZE] (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:46: warning: Member thread22_svc_stack[SVC_STACK_SIZE] (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:47: warning: Member thread23_svc_stack[SVC_STACK_SIZE] (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:48: warning: Member thread24_svc_stack[SVC_STACK_SIZE] (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:49: warning: Member thread25_svc_stack[SVC_STACK_SIZE] (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:50: warning: Member thread26_svc_stack[SVC_STACK_SIZE] (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:51: warning: Member thread27_svc_stack[SVC_STACK_SIZE] (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:52: warning: Member thread28_svc_stack[SVC_STACK_SIZE] (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:53: warning: Member thread29_svc_stack[SVC_STACK_SIZE] (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:54: warning: Member thread30_svc_stack[SVC_STACK_SIZE] (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:58: warning: Member CLOCK_TICKS (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:59: warning: Member threads[32] (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:61: warning: Member idle_function)(void) (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:62: warning: Member waiting_list (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:62: warning: Member runnable (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:63: warning: Member present_thread (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:64: warning: Member thread_count (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/Thread.c:65: warning: Member UB_Bounds[STACK_LIMIT] (variable) of file Thread.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/Thread.h:13: warning: Member STACK_LIMIT (macro definition) of file Thread.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/Thread.h:14: warning: Member RUNNABLE (macro definition) of file Thread.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/Thread.h:15: warning: Member WAITING (macro definition) of file Thread.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/Thread.h:137: warning: Member save_context(int *context) (function) of file Thread.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/timer.c:32: warning: Member timer_read(void) (function) of file timer.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/timer.h:12: warning: Member LOADVAL (macro definition) of file timer.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/timer.h:13: warning: Member VALREG (macro definition) of file timer.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/timer.h:14: warning: Member TCR (macro definition) of file timer.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/timer.h:15: warning: Member RAW_IRQ (macro definition) of file timer.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/timer.h:16: warning: Member CLR_IRQ (macro definition) of file timer.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/timer.h:17: warning: Member PREDIV (macro definition) of file timer.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/timer.h:18: warning: Member IRQ_ENABLE (macro definition) of file timer.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/timer.h:19: warning: Member IRQ_DISABLE (macro definition) of file timer.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/timer.h:20: warning: Member IRQ_PENDING (macro definition) of file timer.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/timer.h:22: warning: Member ENABLE (macro definition) of file timer.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/timer.h:23: warning: Member COUNTER_ENABLE (macro definition) of file timer.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/timer.h:24: warning: Member TIMER_32_BIT (macro definition) of file timer.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/timer.h:25: warning: Member TIMER_IRQ (macro definition) of file timer.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/timer.h:26: warning: Member IRQ_TIMER_ENABLE (macro definition) of file timer.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/timer.h:27: warning: Member CLOCK (macro definition) of file timer.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/timer.h:28: warning: Member DELAY_1_SEC (macro definition) of file timer.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/timer.h:29: warning: Member DELAY_1000 (macro definition) of file timer.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/timer.h:30: warning: Member IRQ_TIMER_PENDING (macro definition) of file timer.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/timer.h:31: warning: Member IRQ_CLR (macro definition) of file timer.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/timer.h:32: warning: Member TMR_IRQ (macro definition) of file timer.h is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/uart.c:14: warning: Member RX_PIN (macro definition) of file uart.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/uart.c:15: warning: Member TX_PIN (macro definition) of file uart.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/uart.c:16: warning: Member GPIO_PULL_DISABLE (macro definition) of file uart.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/uart.c:17: warning: Member AUX_MU_BAUD (macro definition) of file uart.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/uart.c:18: warning: Member AUXENB (macro definition) of file uart.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/uart.c:19: warning: Member AUX_MU_IER_REG (macro definition) of file uart.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/uart.c:20: warning: Member AUX_MU_IIR_REG (macro definition) of file uart.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/uart.c:21: warning: Member AUX_MU_IO_REG (macro definition) of file uart.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/uart.c:22: warning: Member AUX_MU_LCR_REG (macro definition) of file uart.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/src/uart.c:23: warning: Member AUX_MU_LSR_REG (macro definition) of file uart.c is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/mutex_type.h:15: warning: Member priority (variable) of class mutex is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/mutex_type.h:16: warning: Member lock (variable) of class mutex is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/Thread.h:19: warning: Member SP (variable) of class TCB is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/Thread.h:20: warning: Member PC (variable) of class TCB is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/Thread.h:21: warning: Member registers[13] (variable) of class TCB is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/Thread.h:22: warning: Member LR_usr (variable) of class TCB is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/Thread.h:23: warning: Member SP_svc (variable) of class TCB is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/Thread.h:24: warning: Member LR_svc (variable) of class TCB is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/Thread.h:25: warning: Member SPSR (variable) of class TCB is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/Thread.h:26: warning: Member SPSR_svc (variable) of class TCB is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/Thread.h:27: warning: Member finished (variable) of class TCB is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/Thread.h:28: warning: Member C (variable) of class TCB is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/Thread.h:29: warning: Member T (variable) of class TCB is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/Thread.h:30: warning: Member priority (variable) of class TCB is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/Thread.h:31: warning: Member current_priority (variable) of class TCB is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/Thread.h:32: warning: Member status (variable) of class TCB is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/Thread.h:33: warning: Member time_run (variable) of class TCB is not documented.
+/mnt/hgfs/14642/repos/code/kernel/include/Thread.h:34: warning: Member stack_copied (variable) of class TCB is not documented.

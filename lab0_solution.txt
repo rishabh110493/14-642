@@ -1,0 +1,118 @@
+Steps that were carried out to solve the gdbchallenge puzzle:
+
+1. Bring up the gdb by typing the following in the bash: make PROJECT=gdbchallenge gdb
+
+2. Split the screen to view the assembly code as well as the state of registers by the following commands on the gdb prompt:
+layout split
+layout regs
+
+3. The andrew id was entered at 0xa028 using the following command:
+
+set {char[9]} 0xa028 = "krishang"
+
+The value at 0xa000 was checked by using the command:
+x/s 0xa000
+
+The value at 0xa000 observed was "fixmepls"
+
+4. In order to jump to the 'kernel_main' function, we first set a breakpoint at 0x82c8 (kernel_main) and continue. 
+Commands to perform this step:
+b kernel_main
+continue
+
+5. The function 'kernel_main' was examined. It was inferred, that the function calls the functions 'decode' and 'compare' respectively in a sequence and made calls to the functions 'led_clr_red' and 'led_set_green', only if the value returned by the function, 'compare' was equal to 1.
+This would lead to the green LED getting turned on.
+
+6. Hence, the next step was to understand the working of the function 'compare'. Thus, we examined the assembly code of the function 'compare' and stepped into the code one line at a time(command: si) and monitored the registers. We inferred, that it compares the string stored at 0xa000 with a string stored in 0x9000. If the strings match, then it returns 1, else 0.
+
+Hence, we printed the string stored in 0x9000 on the screen using the following command on the gdb prompt:
+
+x/s 0x9000
+
+Value observed at 0x9000: "goodshow"
+
+Thus, in order to pass the test carried out at the function 'compare', the value at 0xa000 after the execution of the function 'decode' must also be equal to "goodshow".
+
+7. The next logical step was to understand the working of the function 'decode'. This was done by carefully examining the code and stepping through the code one line at a time(command: si) and observing the values at the registers.
+
+Pseudocode inferred:
+string_a = string stored at 0xa000 = "fixmepls"
+string_b = string stored at 0xa028 = "krishang"
+for i = 1 to 8,
+  string_a[i] = b[i] + string_a[i] - 97 + string_a[8+(i*4)]
+  if(string_a[i]>122)
+	string_a[i] = string_a[i] - 26;
+
+Prior Knowledge:
+string_a = string stored at 0xa000 = "fixmepls"
+Command used to find this value: x/s 0xa000
+Value stored at 0xa008 = 1
+Value stored at 0xa00C = 2
+Value stored at 0xa010 = 3
+Value stored at 0xa014 = 4
+Value stored at 0xa018 = 5
+Value stored at 0xa01C = 6
+Value stored at 0xa020 = 7
+Value stored at 0xa024 = 8
+
+So these are integers (4 bytes each) which are stored between 0xa008 and 0xa024 to aid in the function 'decode'
+Command to print the integers:
+x/16sb 0xa000
+
+So, the function 'decode' adds each character (the ascii value) of the two strings, subtracts 97 and adds an integer (the index: 1 through 8) to each character and stores the result in 0xa000.
+
+8. So with the working of the function 'decode' being clear, we now needed to reverse-engineer and calculate the characters of string(length = 8) to be stored at 0xa000 initially for the function 'decode' to output "goodshow" at 0xa000.
+
+9. Each of the characters of the initial string at 0xa000 is calculated by 
+
+res - c_1 + 97 - i
+
+where,
+
+res = each character of desired result, ie "goodshow"
+c_1 = each character of the string stored in 0xa028, ie "krishang"
+i = index of the character of the string (1 through 8)
+
+
+10. For string at 0xa028 = "krishang", the ASCII values of the initial string to be placed at 0xa000 was obtained as 
+
+Value at 0xa000 = 92  ie '\'
+Value at 0xa001 = 92  ie '\'
+Value at 0xa002 = 100 ie 'd'
+Value at 0xa003 = 78  ie 'N'
+Value at 0xa004 = 103 ie 'g'
+Value at 0xa005 = 98  ie 'b'
+Value at 0xa006 = 91  ie '['
+Value at 0xa007 = 105 ie 'i'
+
+
+At this point of time, we quit the gdb and restart the debugging session.
+
+This time, we enter the andrew id at 0xa028 by using the following command: set {char[9]} 0xa028 = "krishang"
+
+The calculated values to be placed at 0xa000 were entered one character at a time using the following commands at gdb:
+
+set {char} 0xa000 = '\\'
+set {char} 0xa001 = '\\'
+set {char} 0xa002 = 'd'
+set {char} 0xa003 = 'N'
+set {char} 0xa004 = 'g'
+set {char} 0xa005 = 'b'
+set {char} 0xa006 = '['
+set {char} 0xa007 = 'i'
+
+
+11. Now the program was allowed to continue by typing 'continue' at the gdb prompt.
+
+12. The red LED turns off and the green LED turns on, indicating that all tests have been passed successfully.
+
+13. The same set of steps were repeated for the andrew id "rishabhb", ie 0xa028 = "rishabhb". Similar set of input values for 0xa000 were calculated. They are listed as under:
+
+Value at 0xa000 = 85  ie 'U'
+Value at 0xa001 = 101 ie 'e'
+Value at 0xa002 = 90  ie 'Z'
+Value at 0xa003 = 89  ie 'Y'
+Value at 0xa004 = 110 ie 'n'
+Value at 0xa005 = 97  ie 'a'
+Value at 0xa006 = 97  ie 'a'
+Value at 0xa007 = 110 ie 'n'

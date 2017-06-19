@@ -1,0 +1,16 @@
+
+Compiling: kernel/src/kernel.c
+arm-none-eabi-gcc -nostdlib -Wall -O1 -Werror -ffreestanding -mfloat-abi=soft -march=armv7-a -nostdinc -I 349libk/include -I kernel/include -g -c kernel/src/kernel.c -o kernel/src/kernel.o
+
+Compiling: kernel/src/ads1015.c
+arm-none-eabi-gcc -nostdlib -Wall -O1 -Werror -ffreestanding -mfloat-abi=soft -march=armv7-a -nostdinc -I 349libk/include -I kernel/include -g -c kernel/src/ads1015.c -o kernel/src/ads1015.o
+
+Linking kernel...
+arm-none-eabi-ld   -T 349util/kernel.ld -o kernel/kernel.elf 349libk/src/gpio.o kernel/src/kernel.o kernel/src/printk.o kernel/src/uart.o kernel/src/i2c.o kernel/src/ads1015.o 349libk/src/boot.o 349libk/src/arm.o  /home/ece349/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/4.9.3/libgcc.a
+
+Dumping kernel assembly to kernel.asm...
+arm-none-eabi-objdump -D kernel/kernel.elf > kernel/kernel.asm
+
+Creating kernel image...
+arm-none-eabi-objcopy kernel/kernel.elf -O binary kernel/kernel.img
+349libk/src/gpio.o kernel/src/kernel.o kernel/src/printk.o kernel/src/uart.o kernel/src/i2c.o kernel/src/ads1015.o 349libk/src/boot.o 349libk/src/arm.o

@@ -1,0 +1,52 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DIP_SWITCH_X04
+D DIP Switch x04
+$ENDCMP
+#
+$CMP JACK_TRRS_6PINS
+D audio jack TRRS 6 pins (based on CUI SJ-4351x-SMT)
+K audio jack connector TRRS
+$ENDCMP
+#
+$CMP L3GD20H
+D MEMS motion sensor: three-axis digital output gyroscope
+$ENDCMP
+#
+$CMP LSM303
+D Ultra-compact high-performance eCompass module: 3D accelerometer and 3D magnetometer
+$ENDCMP
+#
+$CMP LSM303C
+D Ultra-compact high-performance eCompass module: 3D accelerometer and 3D magnetometer
+$ENDCMP
+#
+$CMP LSM303D
+D Ultra-compact high-performance eCompass module: 3D accelerometer and 3D magnetometer
+$ENDCMP
+#
+$CMP OPA344_SOT23-5
+D Op Amp in 5-pin package
+K op amp amplifier operational 
+F http://www.ti.com/lit/gpn/opa376
+$ENDCMP
+#
+$CMP PHOTOTRANSISTOR
+D Transistor NPN (general)
+K npn transistor
+$ENDCMP
+#
+$CMP ROT_ENC
+D Mechanical rotary encoder. Bourns PEC12R or similar.
+K Encoder
+$ENDCMP
+#
+$CMP WM8750
+D Stereo CODEC for Portable Audio Applications
+$ENDCMP
+#
+$CMP hole
+D Hole with optional net connection
+$ENDCMP
+#
+#End Doc Library
